@@ -1,0 +1,24 @@
+.some-text {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.text {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-1 {
+    word-spacing: 30px;
+    text-decoration: overline wavy;
+    text-shadow: 0.5px 0.5px #c7b1d1;
+}
+
+.text-2 {
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}
