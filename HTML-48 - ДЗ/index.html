@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <label for="input1">Имя</label>
+            <input type="text" id="input1">
+            <label for="input2">Фамилия</label>
+            <input type="text" id="input2">
+        </fieldset>
+        <fieldset>
+            <legend>Номер тура</legend>
+            <input type="text">
+            <legend>Дата прибытия</legend>
+            <input type="date">
+        </fieldset>
+        <fieldset>
+            <legend>Форма обратной связи</legend>
+            <legend>Номер телефона</legend>
+            <input type="tel">
+            <legend>E-mail</legend>
+            <input type="mail">
+            <legend>Количество гостей</legend>
+            <input type="number" max="5" min="0">
+            <br>
+            <label>
+                Животные
+                <input type="checkbox">
+            </label>
+            <legend>Негативные привычки</legend>
+            <label for="radio">Да</label>
+            <input type="radio" name="radio1">
+            <label for="radio">Нет</label>
+            <input type="radio" name="radio1">
+        </fieldset>
+        <br>
+        <input type="text" id="input1">
+        <select name="form">
+            <option value="">--Название--</option>
+            <option value="v1">Отзывы</option>
+            <option value="v2">Предложения</option>
+            <option value="v3">Решение проблем</option>
+        </select>
+        <br>
+        <br>
+        <textarea cols="30" rows="10" placeholder="Начните вводить..."></textarea>
+        <legend></legend>
+        <input type="file">
+        <br>
+        <br>
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+        <br>
+    </form>
+</body>
+
+</html>
