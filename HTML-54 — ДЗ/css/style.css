@@ -1,12 +1,19 @@
+body {
+    background: #362c2c;
+}
+
+.text {
+    color: #ffffff;
+}
+
 .rectangle {
-width: 400px;
+width: calc(50% - 50px);
 min-height: 100px;
 background-color: #faebd7;
 border-radius: 10px;
 position: fixed;
 bottom: 100px;
 right: 50px;
-left: 50%;
 }
 
 .circle {
@@ -15,6 +22,6 @@ left: 50%;
     background-color: #ff0000;
     border-radius: 50%;
     position: fixed;
-    top: 53%;
-    left: 60%;
+    top: 73%;
+    left: 55%;
 }
