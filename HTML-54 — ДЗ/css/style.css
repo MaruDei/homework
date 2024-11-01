@@ -1,0 +1,20 @@
+.rectangle {
+width: 400px;
+min-height: 100px;
+background-color: #faebd7;
+border-radius: 10px;
+position: fixed;
+bottom: 100px;
+right: 50px;
+left: 50%;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    position: fixed;
+    top: 53%;
+    left: 60%;
+}
