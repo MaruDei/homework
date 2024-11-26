@@ -1,0 +1,156 @@
+.header {}
+
+.header__top {
+    background-color: var(--accent-color);
+    color: var(--accent-text-3);
+    height: 90px;
+
+}
+
+.container {
+    max-width: 1342px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    max-width: 183px;
+    padding: 6px 0 7px;
+    margin-right: 54px;
+}
+
+.header__logo img {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    height: 90px;
+}
+
+.nav__items:last-child {
+    padding-right: 50px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 3vh 30px;
+}
+
+.nav__link {
+    font-family: 'NAMU-Pro';
+    line-height: 24px;
+    font-size: 19px;
+}
+
+.basket svg {
+    transition: stroke 0.3s;
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+}
+
+.basket svg path {
+    stroke: var(--accent-color-3);
+}
+
+.basket:hover svg path {
+    stroke: var(--accent-color-2);
+}
+
+.burger {
+    height: 50px;
+    width: 50px;
+    padding-right: 7%;
+    padding-left: 1%;
+    padding-bottom: 4%;
+}
+
+.burger__icon svg {
+    transition: stroke 0.3s;
+}
+
+.burger__icon svg path {
+    stroke: var(--accent-color-3);
+}
+
+.burger__icon:hover svg path {
+    stroke: var(--accent-color-2);
+}
+
+/* ============================================================ */
+.heder__hero {
+    background: url(../img/background.png);
+    max-width: 100%;
+    height: 850px;
+    z-index: 1;
+}
+
+.header__img {
+    position: absolute;
+    right: auto;
+}
+
+
+
+.container {}
+
+.hero__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__content {
+    max-width: 556px;
+    height: 94px;
+}
+
+.header__img {
+    flex-shrink: 0;
+    position: relative;
+}
+
+.header__img img {
+    width: 997px;
+    height: auto;
+}
+
+.hero__text {
+    padding-top: 250px;
+}
+
+.hero__title {
+    color: var(--accent-text);
+    font-family: 'NAMU-Pro';
+    font-size: 46px;
+    line-height: 1.03;
+    padding-bottom: 40px;
+}
+
+.hero__version {
+    color: var(--accent-color);
+    font-family: "Open Sans";
+    font-size: 26px;
+    line-height: 1.3;
+}
+
+.hero__button {
+    padding-top: 542px;
+}

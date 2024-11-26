@@ -1,0 +1,39 @@
+:root {
+    --accent-text: #111111;
+    --accent-text-2: #C5358C;
+    --accent-text-3: #FFFFFF;
+    --accent-color: #111111;
+    --accent-color-2: #C5358C;
+    --accent-color-3: #FFFFFF;
+    --accent-bg: #FFFFFF;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+body {
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+    line-height: 1.4;
+    color: var(--accent-text);
+    background: var(--accent-bg);
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.button { 
+    all: unset;
+}
+
+.container {
+    max-width: 1342px;
+    margin: 0 auto;
+    height: 100%;
+}
